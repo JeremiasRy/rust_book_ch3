@@ -6,6 +6,7 @@ fn main() {
 
     let decision: i8 = loop {
         let mut input = String::new();
+        
         io::stdin()
             .read_line(&mut input)
             .expect("What is this???");
